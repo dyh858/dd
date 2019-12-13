@@ -1,0 +1,12 @@
+D:\Practices\vb.net\Study\Study\bin\Debug\Study.exe.config
+D:\Practices\vb.net\Study\Study\bin\Debug\Study.exe
+D:\Practices\vb.net\Study\Study\bin\Debug\Study.pdb
+D:\Practices\vb.net\Study\Study\bin\Debug\Study.xml
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.Form1.resources
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.Resources.resources
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.vbproj.GenerateResource.Cache
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.exe
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.xml
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.pdb
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.vbprojResolveAssemblyReference.cache
+D:\Practices\vb.net\Study\Study\obj\Debug\Study.Form2.resources

@@ -1,0 +1,9 @@
+D:\Practices\vb.net\Study\Demo\bin\Debug\Demo.exe.config
+D:\Practices\vb.net\Study\Demo\bin\Debug\Demo.exe
+D:\Practices\vb.net\Study\Demo\bin\Debug\Demo.pdb
+D:\Practices\vb.net\Study\Demo\bin\Debug\Demo.xml
+D:\Practices\vb.net\Study\Demo\obj\Debug\Demo.Resources.resources
+D:\Practices\vb.net\Study\Demo\obj\Debug\Demo.vbproj.GenerateResource.Cache
+D:\Practices\vb.net\Study\Demo\obj\Debug\Demo.exe
+D:\Practices\vb.net\Study\Demo\obj\Debug\Demo.xml
+D:\Practices\vb.net\Study\Demo\obj\Debug\Demo.pdb

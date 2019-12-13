@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--<AutoUpdater>
+  <description>Application autoUpdate</description>
+  <Updater>
+	<Url>http://www.178cf.com/Software/</Url>
+	<LastUpdateTime>2005-09-05</LastUpdateTime>
+  </Updater>
+
+  <Application applicationId="ItemSoft">
+    <EntryPoint>ItemSoft.exe</EntryPoint>
+    <Location>.</Location>
+	<Version>1.0.0.0</Version>
+  </Application>
+  <Files>
+	   <File Ver="1.0.0.0" Name="ItemSoft.exe" />
+	   <File Ver="1.0.0.0" Name="Reports\test.txt"/>
+	   <File Ver="1.0.0.0" Name="Interop.grproLib.dll"/>
+	   <File Ver="1.0.0.0" Name="Reports\test.grf"/>
+  </Files>
+</AutoUpdater>-->
+<Xml>
+<Url>http://127.0.0.1/</Url>
+<RunExe>Frog/setup.exe</RunExe>
+<Files>
+    <Itme Name="Frog\Application Files\Frog_1_0_0_3\Frog.application"/>
+    <Itme Name="Frog\Application Files\Frog_1_0_0_3\Frog.exe.config.deploy"/>
+    <Itme Name="Frog\Application Files\Frog_1_0_0_3\Frog.exe.deploy"/>
+    <Itme Name="Frog\Application Files\Frog_1_0_0_3\Frog.exe.manifest"/>
+    <Itme Name="Frog/Frog.application"/>
+    <Itme Name="Frog/setup.exe"/>
+<!--
+    <Itme Name="ODBC_FixTool.exe" />
+    <Itme Name="K331.txt"/>
+    <Itme Name="forward.ico"/>
+    <Itme Name="ReaderINI.ini"/>
+-->
+</Files>
+</Xml>

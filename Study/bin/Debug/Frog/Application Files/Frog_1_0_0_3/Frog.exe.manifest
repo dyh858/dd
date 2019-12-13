@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Frog.exe" version="1.0.0.3" publicKeyToken="fd92122fae04750b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Frog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Frog.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 节点将会禁用文件和注册表虚拟化。
+            如果要利用文件和注册表虚拟化实现向后
+            兼容性，则删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Frog.exe" size="24576">
+      <assemblyIdentity name="Frog" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cxpgBjIRRKYyOSAVVPGmpUkYCwgH/f5CiZ/73bGycns=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Frog.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 此应用程序设计使用的所有 Windows 版本的列表。
+      Windows 将会自动选择最兼容的环境。-->
+      <!-- 如果应用程序设计为使用 Windows Vista，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- 如果应用程序设计使用 Windows 7，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- 如果应用程序设计为使用 Windows 8，请取消注释以下 supportedOS 节点-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- 如果应用程序设计为使用 Windows 8.1，请取消对以下 supportedOS 节点的注释-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=PC201910051552\Administrator" issuerKeyHash="413bb819fd7ae7ead58125d5d53a5960e00b8413" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>l9nSHmIfQsrbGS+rSB2s9fbuv+O/p3nDjiJKWV2NPCI=</DigestValue></Reference></SignedInfo><SignatureValue>lvxY8VymBN3SBYzpx4YUA65af9Hv+sZ+OcSdi7K5KdtlpXw++iJsV50Cgbr9XXxiPfj8ly3cQ8GgmVK4loO6jkzp7Q7yVS116iBKg8Ikwdg/rWY/t3uqdHJgUu8mbj39nzRupu84s8RQ+sWC11YquYfs2nwM/u/aES5vvV7EomQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zJ0KkVZrNIcTsEmtVkY6HCtSajnM9AR0yfHaQzalzqVrYdUfTxT/n6kFztdHElFbKbVsSKFO03vZEnTXj/FpZIKGPiAG2rmzge9Yxzn7sxh/Uv5s7QivxGEw2K4At3EzTuEnxJ/U0SVsen8E8/5IAztJUztT22yUlYdhJXPXnac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="223c8d5d594a228ec379a7bfe3bfeef6f5ac1d48ab2f19dbca421f621ed2d997" Description="" Url=""><as:assemblyIdentity name="Frog.exe" version="1.0.0.3" publicKeyToken="fd92122fae04750b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC201910051552\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RIPpCpeiX0haxHysAYxvB7Jc57iTz52fLr0GQo2Z/Qg=</DigestValue></Reference></SignedInfo><SignatureValue>Dxuc2JVwhB3TA+HTWq8/kDoK0nlwkReWuT5JWowWm0OLUiHreebwlbnl1g1opFQTO3qNhmTync9kXYskUIfydwjPYHBrHgCuUc8RViE6obvSnP87rA1WHGQGE95gLpNVqSqWqtOhpsyHEY/pZ7X8zrV7Z92skMcXQBPj/y8ianA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zJ0KkVZrNIcTsEmtVkY6HCtSajnM9AR0yfHaQzalzqVrYdUfTxT/n6kFztdHElFbKbVsSKFO03vZEnTXj/FpZIKGPiAG2rmzge9Yxzn7sxh/Uv5s7QivxGEw2K4At3EzTuEnxJ/U0SVsen8E8/5IAztJUztT22yUlYdhJXPXnac=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQFufXsSx2cqRDfUGwoF099zANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgAUABDADIAMAAxADkAMQAwADAANQAxADUANQAyAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xOTExMjUxNDQwNDdaFw0yMDExMjQyMDQwNDdaMEMxQTA/BgNVBAMeOABQAEMAMgAwADEAOQAxADAAMAA1ADEANQA1ADIAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMnQqRVms0hxOwSa1WRjocK1JqOcz0BHTJ8dpDNqXOpWth1R9PFP+fqQXO10cSUVsptWxIoU7Te9kSdNeP8WlkgoY+IAbaubOB71jHOfuzGH9S/mztCK/EYTDYrgC3cTNO4SfEn9TRJWx6fwTz/kgDO0lTO1PbbJSVh2Elc9edpwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAD/ybp+FAF58iGEOUocGdOhduVrVr9M9eYkkxMvcrh40yn/n9hiwCnrx6XZdWVNPDS1rYoRCsZuQ6Pm9+gawJ2KLjfdON1BCsRF20nGAHrka9CDSEzXp15KKOjDEJyI7zruE3rPyifp94sbfN6kTdeidE5uFTW0SG4Z7s4cmGNOP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
